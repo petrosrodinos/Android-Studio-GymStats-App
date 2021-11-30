@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Food"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_below="@id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Calories" />
+
+    <EditText
+        android:id="@+id/protein"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@id/calories"
+        android:hint="Protein" />
+
+    <EditText
+        android:id="@+id/carbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@id/protein"
+        android:hint="Carbs" />
+
+    <EditText
+        android:id="@+id/fats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@id/carbs"
+        android:hint="Fats" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/fats"
+        android:background="@color/btnname"
+        android:layout_marginLeft="60dp"
+        android:text="Add"
+        android:layout_marginStart="60dp" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/add"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-40dp"
+        android:background="@color/btnname"
+        android:text="Cancel"
+        android:layout_marginStart="150dp" />
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        app:cardBackgroundColor="@color/testing"
+        app:cardCornerRadius="5dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="35dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingTop="2dp">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="RICE, "
+                android:textColor="@color/btnname"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/name"
+                android:text="Calories: "
+                android:textColor="@color/btnname"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/calories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cal"
+                android:layout_marginTop="-21dp"
+                android:layout_toRightOf="@id/cal"
+                android:layout_weight="1"
+                android:text="700"
+                android:textColor="@color/back"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/pro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cal"
+                android:paddingLeft="1dp"
+                android:paddingTop="1dp"
+                android:text="Protein:"
+                android:textColor="@color/btnname"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/protein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cal"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/pro"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="150 "
+                android:textColor="@color/back"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/car"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cal"
+                android:layout_toRightOf="@id/protein"
+                android:paddingTop="2dp"
+                android:text="Carbs:"
+                android:textColor="@color/btnname"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/carbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cal"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/car"
+                android:paddingLeft="2dp"
+                android:paddingTop="1dp"
+                android:text="450 "
+                android:textColor="@color/back"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/fat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cal"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@id/carbs"
+                android:text=" Fats:"
+                android:textColor="@color/btnname"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/fats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cal"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/fat"
+                android:text=" 80"
+                android:textColor="@color/back"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

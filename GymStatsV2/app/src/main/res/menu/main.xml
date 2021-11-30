@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.ExcerciseDetails">
+
+    <item
+        android:id="@+id/database"
+        android:icon="@drawable/ic_cloud"
+        android:title=""
+        android:iconTint="@color/btnname"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/deletee"
+        android:icon="@drawable/ic_delete"
+        android:title=""
+        android:iconTint="@color/btnname"
+        app:showAsAction="always"
+        />
+
+
+</menu>

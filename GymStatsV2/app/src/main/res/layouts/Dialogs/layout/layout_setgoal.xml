@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/calories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Calories" />
+
+    <EditText
+        android:id="@+id/protein"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/calories"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Protein" />
+
+    <EditText
+    android:id="@+id/carbs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@android:color/holo_red_light"
+    android:ems="10"
+    android:inputType="number"
+    android:layout_below="@id/protein"
+    android:hint="Carbs" />
+
+    <EditText
+        android:id="@+id/fats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@id/carbs"
+        android:hint="Fats" />
+
+</RelativeLayout>

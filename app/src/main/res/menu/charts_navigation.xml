@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/weight"
+        android:title="Weight"
+        android:icon="@drawable/weight"/>
+
+    <item
+        android:id="@+id/reps"
+        android:title="Reps"
+        android:icon="@drawable/reps"/>
+
+    <item
+        android:id="@+id/sets"
+        android:title="Sets"
+        android:icon="@drawable/sets"/>
+
+    <item
+        android:id="@+id/volume"
+        android:title="Volume"
+        android:icon="@drawable/barchart"/>
+
+</menu>

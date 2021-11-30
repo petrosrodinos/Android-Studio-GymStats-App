@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#2196F3</color>
+    <color name="colorAccent">#2196F3</color>
+    <color name="btnname">#ff4000</color>
+
+    <color name="testing">#ffd480</color>
+    <color name="testing2">#00424d</color>
+    <color name="back">#00252b</color>
+
+    <drawable name="orange">#ffedcc</drawable>
+    <drawable name="green">#ccffcc</drawable>
+</resources>

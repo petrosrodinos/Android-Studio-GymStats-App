@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/activities"
+        android:title="Activities"
+        android:icon="@drawable/todo"/>
+
+    <item
+        android:id="@+id/calories"
+        android:title="Calories"
+        android:icon="@drawable/calorie"/>
+
+    <item
+        android:id="@+id/charts"
+        android:title="Charts"
+        android:icon="@drawable/barchart"/>
+
+
+
+
+
+</menu>
