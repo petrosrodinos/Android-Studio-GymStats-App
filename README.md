@@ -1,5 +1,5 @@
 # Android-Studio-GymStats-App
-An app for gym progress monitoring with statistics charts
+An app for gym progress monitoring with statistics charts</br>
 -Add a gym exercise to a certain day or choose a sport.</br>
 -Add sets,reps,weight for each exercise.</br>
 -Delete an exercise or set.</br>
